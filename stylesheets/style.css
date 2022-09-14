@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,500;1,200&display=swap');
+
+:root {
+    --cor0: #2D403B;
+    --cor1: #A64B17;
+    --cor2: #BCBF50;
+    --cor3: #F2A057;
+    --cor4: #F2C6A0;
+    --font0: 'Roboto Mono', monospace;
+}
