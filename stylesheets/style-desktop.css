@@ -1,0 +1,32 @@
+@charset "UTF-8";
+:root {
+    --cor0: #2D403B;
+    --cor1: #A64B17;
+    --cor2: #BCBF50;
+    --cor3: #F2A057;
+    --cor4: #F2C6A0;
+    --font0: 'Roboto Mono', monospace;
+}
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, var(--cor4), var(--cor3));
+    }
+    #login {
+        width: 950px;
+    }
+    #imagem {
+        float: left;
+        width: 50%;    
+        height: 100%;
+    }
+    #formulario {
+        float: right;
+        width: 50%;
+    }
+    #formulario h1 {
+		font-size: 2em;
+	}
+	#formulario p {
+		font-size: 1.2em;
+	}
+}
