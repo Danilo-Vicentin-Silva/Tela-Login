@@ -46,7 +46,7 @@ main {
 }
 
 #imagem {
-    background: white url('/imagens/login-mobile.jpg') center center no-repeat;
+    background: white url('../imagens/login-mobile.jpg') center center no-repeat;
     background-size: cover;
     height: 200px;
     display: block;
