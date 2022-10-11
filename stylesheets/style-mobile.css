@@ -37,12 +37,16 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.526);
 
     position: absolute;
-    transform: translate(-50%,-50%);
     top: 50%;
     left: 50%;
 
+    transform: translate(-50%,-50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+}
+
+#login p {
+    margin: 10px 0;
 }
 
 #imagem {
@@ -73,7 +77,34 @@ main {
     width: 100%;
     height: 40px;
     border-radius: 5px;
+    border: 2px solid black;
     margin: 5px 0;
+}
+
+.campo > span {
+    color: black;
+    font-size: 2em;
+
+    width: 40px;
+    padding: 5px;
+}
+
+.campo > input {
+    color: var(--cor3);
+    background-color: var(--cor0);
+    font-size: 1em;
+
+    height: 90%;
+    width: calc(100% - 51px);
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+
+    transform: translateY(-12px);
+}
+
+.campo > input:focus-within {
+    background-color: white;
 }
 
 input[type=submit] {
